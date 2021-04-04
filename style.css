@@ -1,0 +1,28 @@
+.image-22 {
+  background-image: url("image-22.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* -ms-filter: blur(2px); */
+  /* filter: blur(2px); */
+}
+
+.opaque {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.form {
+  width: 100%;
+  max-width: 750px;
+}
+
+input,
+textarea {
+  outline: none;
+  border-radius: 1rem;
+}
+
+textarea {
+  min-height: 200px;
+}
